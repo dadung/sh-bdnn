@@ -23,6 +23,8 @@ We have included, compiled and tested all 3rd party libraries on MATLAB R2014a, 
 II. DATASET
 =================
 
+Download dataset.zip [here](https://drive.google.com/file/d/1vVfG6XFG1ESzshoOA2zcLgqWbx8_lLLl/view?usp=sharing), extract and place it in the directory of source code
+
 The folder './dataset/cifar' contains the mat files used for this demo code
 		+ cifar_alexnet_800.mat: This is PCA-projected Alexnet 800-D representation of CIFAR-10, it contains:
 				- Xtest (10000×800): 10K query images
@@ -33,7 +35,7 @@ The folder './dataset/cifar' contains the mat files used for this demo code
 III. USAGE
 =================
 
-0. Download dataset.zip [here](https://drive.google.com/file/d/1vVfG6XFG1ESzshoOA2zcLgqWbx8_lLLl/view?usp=sharing), extract and place it in the directory of source code
+
 1. Run 'demo.m', it will visualize a comparison between our method with SDH (CVPR15) in mAP
 2. If the code works properly, you will get Fig 3(a) (with 2 curves: our SH-BDNN and SDH) as our ECCV16 paper
 3. It should take ~8 hours to finish, we tested on workstation Intel Xeon(R) CPU E5-1620 v2 @ 3.70GHz × 8 RAM 64GB
